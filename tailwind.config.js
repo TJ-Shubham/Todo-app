@@ -12,7 +12,7 @@ export default {
         "hero-mobile-light":"url('/bg-mobile-light.jpg')",
         "hero-desktop-dark":"url('/bg-desktop-dark.jpg')",
         "hero-desktop-light":"url('/bg-desktop-light.jpg')",
-        "button-gradient":"linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%)",
+        "button-gradient":"linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%))",
       },
       colors:{
 
