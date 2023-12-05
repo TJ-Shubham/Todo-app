@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 @layer base{
+
+    /* here we add this transition property the reason is when you theme switch it's going to smooth  */
+    *,
+    *::before,
+    *::after {
+        transition: all 0.4s;
+    }
+
+
     body{
-        font-family: "Josefin Sans", "sans-serif";
+        min-width: 375px;
     }
 }

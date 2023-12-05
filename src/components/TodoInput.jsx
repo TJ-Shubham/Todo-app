@@ -23,7 +23,7 @@ function TodoInput() {
                 <input 
                     type="text" 
                     id="todo-input" 
-                    className="w-full p-3 rounded-md bg-light-gray pl-12 text-light-dark-graylish-blue outline-none shadow-xl shadow-black/10 placeholder:text-light-graylish-blue dark:bg-dark-blue dark:text-dark-graylish-blue dark:placeholder:text-dark-graylish-blue-third md:text-xl md:p-4 md:px-16"
+                    className="w-full p-3 rounded-md bg-light-gray pl-12 text-light-dark-graylish-blue outline-none shadow-xl shadow-black/10 placeholder:text-light-graylish-blue dark:bg-dark-saturated-blue dark:text-dark-graylish-blue dark:placeholder:text-dark-graylish-blue-third  md:p-4 md:px-16"
                     placeholder="Create a new todo..."
                     value={todo}
                     onChange={(e)=>setTodo(e.target.value)}

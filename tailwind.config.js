@@ -7,6 +7,9 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        "josefin-sans": ["Josefin Sans", "sans-serif"],
+      },
       backgroundImage:{
         "hero-mobile-dark":"url('/bg-mobile-dark.jpg')",
         "hero-mobile-light":"url('/bg-mobile-light.jpg')",
