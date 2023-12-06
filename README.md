@@ -34,13 +34,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](/todo-screenshot.png)
+![](./public/todo-screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [URL](https://github.com/TJ-Shubham/Todo-app)
+- Live Site URL: [URL](https://tj-shubham.github.io/Todo-app/)
 
 ## My process
 
