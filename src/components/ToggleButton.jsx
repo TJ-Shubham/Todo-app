@@ -10,10 +10,10 @@ function ToggleButton() {
     <div className="cursor-pointer px-2 transition duration-500 ease-in-out">
         {themeMode === "dark" ? 
           <button type="button" onClick={lightTheme}>
-              <img src={moonIcon} alt="its sun icon svg" />
+              <img src={sunIcon} alt="its sun icon svg" />
           </button> :
         <button type="button" onClick={darkTheme}>
-            <img src={sunIcon} alt="its sun icon svg" />
+            <img src={moonIcon} alt="its sun icon svg" />
         </button>}
     </div>
   )
