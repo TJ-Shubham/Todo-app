@@ -40,7 +40,7 @@ function TodoItem({todo}) {
         <button
           type="button"
           onClick={handleToggleComplete} 
-          className={`flex items-center justify-center aspect-square h-5 rounded-full border border-light-graylish-blue hover:border-bright-blue dark:border-dark-graylish-blue-fourth md:h-6 ${todo.isComplete ? 'bg-button-gradient' : ''}` } >
+          className={`flex items-center justify-center aspect-square h-5 rounded-full border border-light-graylish-blue hover:border-bright-blue dark:hover:border-bright-blue dark:border-dark-graylish-blue-fourth md:h-6 ${todo.isComplete ? 'bg-button-gradient' : ''}` } >
             {todo.isComplete &&  <img src={checkIcon} alt="check"  className="h-2" />}
         </button>   
         {!todo.isComplete && isEditing && <UpdateTodo onEdit={handleUpdate}>{todo.todoTask}</UpdateTodo>}

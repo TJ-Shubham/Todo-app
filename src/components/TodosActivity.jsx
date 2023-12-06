@@ -19,10 +19,10 @@ function TodosActivity({ setFilter, filter }) {
         <button className="md:hidden" onClick={cearAllTodo} >Clear Completed</button>
       </div>
       <div className="flex items-center justify-around py-4  px-4 bg-light-gray text-light-dark-blue rounded-md md:rounded-none dark:bg-dark-saturated-blue md:col-start-2 md:col-end-7 md:rounded-br-lg">
-        <button className={`text-brigh-blue font-bold ${filter === 'ALL' ? 'text-bright-blue' : ''}`} onClick={() => setFilter('ALL')}>All</button>
-        <button className={`text-brigh-blue font-bold ${filter === 'ACTIVE' ? 'text-bright-blue' : ''}`} onClick={() => setFilter('ACTIVE')} >Active</button>
-        <button className={`text-brigh-blue font-bold ${filter === 'COMPLETED' ? 'text-bright-blue' : ''}`} onClick={() => setFilter('COMPLETED')} >Completed</button>
-        <button className="hidden md:inline-block" onClick={cearAllTodo} >Clear Completed</button>
+        <button className={`text-brigh-blue font-bold md:hover:text-light-dark-graylish-blue dark:md:hover:text-light-dark-graylish-blue ${filter === 'ALL' ? 'text-bright-blue' : ''}`} onClick={() => setFilter('ALL')}>All</button>
+        <button className={`text-brigh-blue font-bold md:hover:text-light-dark-graylish-blue dark:md:hover:text-light-dark-graylish-blue ${filter === 'ACTIVE' ? 'text-bright-blue' : ''}`} onClick={() => setFilter('ACTIVE')} >Active</button>
+        <button className={`text-brigh-blue font-bold md:hover:text-light-dark-graylish-blue dark:md:hover:text-light-dark-graylish-blue ${filter === 'COMPLETED' ? 'text-bright-blue' : ''}`} onClick={() => setFilter('COMPLETED')} >Completed</button>
+        <button className="hidden md:inline-block md:hover:text-light-dark-graylish-blue dark:md:hover:text-light-dark-graylish-blue" onClick={cearAllTodo} >Clear Completed</button>
       </div>   
     </div>
   )
